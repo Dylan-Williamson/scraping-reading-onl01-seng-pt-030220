@@ -1,7 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 
-html = open("https://flatironschool.com/")
+html = open("https://tunebat.com/")
 
 doc = Nokogiri::HTML(html)
 
